@@ -22,4 +22,9 @@ npm install
 npx cypress run --spec cypress/integration/* --headed
 
 ```
+## Assumption
+
+Assuming ads are not counted as a result when doing google search.
+
+
 ## End
