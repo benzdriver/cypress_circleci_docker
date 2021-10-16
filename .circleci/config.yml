@@ -13,7 +13,8 @@ jobs:
     # confirms Cypress ran correctly by looking at the output file
     - run: cat e2e/cypress/results/output.xml
 workflows:
+  version: 2
   build:
     jobs:
     - build
-  version: 2
+  
